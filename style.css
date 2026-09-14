@@ -1,0 +1,167 @@
+/* Element selector */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #222;
+}
+
+p {
+    line-height: 1.5;
+}
+
+a {
+    color: blue;
+}
+
+.header {
+    background-color: #dddddd;
+    padding: 20px;
+    text-align: center;
+}
+
+.main {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #cccccc;
+}
+
+.footer {
+    background-color: #dddddd;
+    padding: 10px;
+    text-align: center;
+}
+
+/* ID selector */
+#main-heading {
+    color: darkblue;
+    font-size: 2rem;
+}
+
+/* Class selector */
+.highlight {
+    background-color: yellow;
+    padding: 5px;
+}
+
+.profile-photo {
+    width: 30%;
+    max-width: 250px;
+    border: 2px solid #333333;
+}
+
+.photo-note {
+    font-size: 14px;
+}
+
+button {
+    width: 100px;
+    padding: 8px;
+    margin-top: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+form {
+    margin-top: 10px;
+}
+
+input {
+    padding: 5px;
+}
+
+/* Box Model */
+.box-model {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+/* Positioning */
+.position-container {
+    position: relative;
+    height: 180px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.static-box {
+    position: static;
+    background-color: #eeeeee;
+    padding: 10px;
+    width: 100px;
+}
+
+.relative-box {
+    position: relative;
+    left: 20px;
+    top: 10px;
+    background-color: #dddddd;
+    padding: 10px;
+    width: 100px;
+}
+
+.absolute-box {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    background-color: #cccccc;
+    padding: 10px;
+    width: 100px;
+}
+
+/* Float and Clear */
+.left-box {
+    float: left;
+    width: 40%;
+    background-color: #eeeeee;
+    padding: 15px;
+}
+
+.right-box {
+    float: right;
+    width: 40%;
+    background-color: #dddddd;
+    padding: 15px;
+}
+
+.clear-box {
+    clear: both;
+}
+
+/* CSS sizing units */
+.size-px {
+    font-size: 16px;
+}
+
+.size-em {
+    font-size: 1.2em;
+}
+
+.size-rem {
+    font-size: 1.2rem;
+}
+
+.percent-box {
+    width: 50%;
+    background-color: #eeeeee;
+    padding: 10px;
+    margin-bottom: 20px;
+}
